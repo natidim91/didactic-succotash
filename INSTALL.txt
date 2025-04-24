@@ -1,0 +1,46 @@
+
+# Installation Guide for MetronMG  
+(C) 2025 Baran / Georgi  
+Released under GNU GPL v3.0  
+
+## **Prerequisites**  
+Before installing MetronMG, ensure you have the following:  
+- A microcontroller (e.g., Arduino-compatible board)  
+- Required libraries:  
+  - Wire.h  
+  - LiquidCrystal_I2C.h  
+  - DHT.h  
+- A working environment such as the **Arduino IDE**  
+
+## **Installation Steps**  
+
+### **1. Download the Source Code**  
+Clone the repository or download the tarball:  
+
+```sh
+git clone https://github.com/BaranGeorgi/MetronMG.git  
+
+
+2. **Open the Project in Arduino IDE**  
+   - Launch Arduino IDE.  
+   - Open `MetronMG.ino`.  
+
+3. **Connect the Hardware**  
+   - Connect the ultrasonic sensor to the appropriate pins on your Arduino.  
+   - If using an LCD display, connect it as well.  
+
+4. **Upload the Code**  
+   - Select your board and port from the **Tools** menu.  
+   - Click **Upload**.  
+
+5. **Run the Program**  
+   - Open the **Serial Monitor** to view distance measurements.  
+   - If using an LCD display, check the screen for results.  
+
+## Troubleshooting  
+- Ensure all wires are correctly connected.  
+- Check that the correct board and port are selected in the Arduino IDE.  
+- If the LCD doesn't display correctly, adjust the contrast or check the I2C address.  
+
+## Uninstallation  
+Simply delete the project folder from your computer.  
